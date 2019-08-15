@@ -69,6 +69,11 @@ public class Produto implements Product {
         return img;
     }
 
+    @Override
+    public void setTotalCashback(String cashback) {
+        this.cashback = cashback;
+    }
+
     public void setImg(String img) {
         this.img = img;
     }

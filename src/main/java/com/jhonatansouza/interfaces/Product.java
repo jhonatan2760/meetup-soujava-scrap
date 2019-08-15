@@ -7,5 +7,6 @@ public interface Product {
      String getCashback();
      String getUrl();
      String getImg();
+     void setTotalCashback(String cashback);
 
 }
