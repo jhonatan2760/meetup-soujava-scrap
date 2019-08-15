@@ -14,6 +14,8 @@ public class FormataValor {
 
     @Override
     public String toString() {
+        if(valor.isEmpty() || valor == null)
+            return "";
         return Optional.ofNullable(
                 this.valor.substring(this.valor.indexOf(delimita) + 1,
                         ( this.valor.indexOf(",") ) ).replaceAll(" ", ""))
