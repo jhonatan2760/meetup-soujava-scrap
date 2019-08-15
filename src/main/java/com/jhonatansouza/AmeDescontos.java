@@ -16,7 +16,6 @@ import java.util.Comparator;
 import java.util.List;
 
 @SpringBootApplication
-@EnableCaching
 public class AmeDescontos {
 
     public static void main(String [] args) throws IOException {
