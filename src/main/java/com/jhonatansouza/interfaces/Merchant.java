@@ -4,8 +4,8 @@ import com.jhonatansouza.enums.MerchantOrigin;
 
 import java.util.List;
 
-public interface Merchant {
+public abstract class Merchant {
 
-    List<Product> grabProducts(String productName);
+    public abstract List<Product> grabProducts(String productName);
 
 }
